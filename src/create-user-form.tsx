@@ -47,7 +47,7 @@ function CreateUserForm({ setUserWasCreated }: CreateUserFormProps) {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            Authorization: 'Bearer YOUR_TOKEN_HERE', // replace with real token
+            Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsic29uaXFqampAZ21haWwuY29tIl0sImlzcyI6Imhlbm5nZS1hZG1pc3Npb24tY2hhbGxlbmdlIiwic3ViIjoiY2hhbGxlbmdlIn0.fESInhJY1IicBrGbMQpHWtKYZVnxlu7bWmuQEOkdkFs', // replace with real token
           },
           body: JSON.stringify({ username, password }),
         }
