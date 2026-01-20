@@ -5,6 +5,9 @@ interface CreateUserFormProps {
   setUserWasCreated: Dispatch<SetStateAction<boolean>>;
 }
 
+// Get token from .env.local
+const token = import.meta.env.VITE_HENNGE_TOKEN;
+
 function CreateUserForm({ setUserWasCreated }: CreateUserFormProps) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -47,7 +50,7 @@ function CreateUserForm({ setUserWasCreated }: CreateUserFormProps) {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsic29uaXFqampAZ21haWwuY29tIl0sImlzcyI6Imhlbm5nZS1hZG1pc3Npb24tY2hhbGxlbmdlIiwic3ViIjoiY2hhbGxlbmdlIn0.fESInhJY1IicBrGbMQpHWtKYZVnxlu7bWmuQEOkdkFs', // replace with real token
+            Authorization: `Bearer ${token}`, // replace with real token
           },
           body: JSON.stringify({ username, password }),
         }
