@@ -62,3 +62,15 @@ The challenge consists of creating a **React frontend form** for user registrati
 ```bash
 git clone https://github.com/Joiejoie1/Joiejoie1-frontend_password_validation_v1_challenge-react.git
 cd Joiejoie1-frontend_password_validation_v1_challenge-react
+
+Install dependencies:
+
+pnpm install
+
+
+Start the development server:
+
+pnpm dev
+
+
+Open the browser preview to see the Create User form.
