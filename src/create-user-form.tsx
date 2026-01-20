@@ -81,6 +81,8 @@ function CreateUserForm({ setUserWasCreated }: CreateUserFormProps) {
   return (
     <div style={formWrapper}>
       <form style={form} onSubmit={handleSubmit} noValidate>
+        {/* make sure the username and password are submitted */}
+        {/* make sure the inputs have the accessible names of their labelsn */}
         {/* Username Input */}
         <label htmlFor="username" style={formLabel}>
           Username
