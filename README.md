@@ -68,7 +68,7 @@ cd REPO_NAME
 pnpm install
 
 
-Start the development server:
+3. Start the development server:
 
 pnpm dev
 
