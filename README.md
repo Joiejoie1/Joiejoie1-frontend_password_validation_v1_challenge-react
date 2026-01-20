@@ -1,4 +1,3 @@
-# Joiejoie1-frontend_password_validation_v1_challenge-react
 
 # HENNGE Frontend Password Validation Challenge (React)
 
@@ -60,10 +59,11 @@ The challenge consists of creating a **React frontend form** for user registrati
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Joiejoie1/Joiejoie1-frontend_password_validation_v1_challenge-react.git
-cd Joiejoie1-frontend_password_validation_v1_challenge-react
+git clone https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME.git
+cd REPO_NAME
 
-Install dependencies:
+
+2. Install dependencies:
 
 pnpm install
 
